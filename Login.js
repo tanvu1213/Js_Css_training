@@ -1,8 +1,8 @@
 
 function Login()
 {
-    let Username = "Admin";
-    let Password = "Admin";
+    let Username = "Admin123";
+    let Password = "Admin123";
     var user = document.getElementById("Username").value;     
     var pass = document.getElementById("password").value;
     if(user == Username,pass == Password)
