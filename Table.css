@@ -1,0 +1,25 @@
+body
+{
+    background-color: whitesmoke;
+}
+#Customer th, #Customer td
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customer tr:nth-child(even)
+{
+    background-color: deepskyblue;
+}
+
+#customer tr:hover
+{
+    background-color: pink;
+}
+
+#customer th
+{
+    text-align: left;
+    background-color: green;
+    color: white;
+}

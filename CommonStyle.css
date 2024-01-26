@@ -1,0 +1,54 @@
+.nav-Menu
+{
+    position: relative;
+    left: 10%;
+}
+.nav-Menu a
+{
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.nav-Menu a:hover
+{
+    color: #fddb3a;
+}
+.nav-Menu .effect
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #fddb3a;
+}
+
+.nav-Menu a:nth-child(1):hover ~ .effect
+{
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.5;
+}
+
+.nav-Menu a:nth-child(2):hover ~ .effect
+{
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    opacity: 1;
+}
+
+.nav-Menu a:nth-child(3):hover ~ .effect
+{
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    opacity: 1;
+}

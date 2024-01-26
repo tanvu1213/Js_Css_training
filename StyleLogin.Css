@@ -1,0 +1,52 @@
+
+
+body
+{
+    margin: auto;
+    background-image: url("https://www.chromethemer.com/google-chrome/backgrounds/download/random-hd-background-for-google-chrome-ct0970.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo
+{
+    width: 200px;
+    height: 200px;
+}
+.login-form
+{
+    position: relative;
+    width: 500px;
+    height: auto;
+}
+
+
+.input
+{
+    margin: 100px auto;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    background: white;
+}
+
+.button
+{
+    width: 100px;
+    height: 40px;
+    margin:10px auto;
+    display: block;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    background: green;
+}
+
+.button :hover
+{
+    background: lightpink;
+}
